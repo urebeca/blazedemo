@@ -1,0 +1,14 @@
+{
+  "name": "blazedemo-navegacion-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for BlazeDemo navigation (NAV-01..NAV-21)",
+  "scripts": {
+    "test": "playwright test",
+    "test:nav": "playwright test tests/navegacion.spec.js",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
